@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --width : 34%;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(images/background.png);
+    height: 100vh;
+    width: var(--width);
+}
+img{
+    height: 10em;
+}
+.title{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.63);
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    margin-top:20%;
+    height: 20%;
+}
+
+#odin{
+    color: white;
+    font-size: 5rem;
+    font-family:monospace
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color:white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:1;
+    height: 100vh;
+    gap:5px;
+}
+
+.text-service{
+    display: flex;
+    height:35vh;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(243, 242, 241);
+}
+.paragraph{
+    padding:30px;
+    font-size:25px;
+    font-weight: 800px;
+    width: 55%;
+}
+p{
+    margin-top: 20px;
+}
+
+.form-questionary{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px 30px 30px 30px;
+    height: 30vh;
+}
+
+h2{
+    padding-left: 30px;
+}
+
+.form-question{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 33.3%;
+}
+
+input {
+  border: 2px solid #000;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border-color: rgb(233, 26, 26);
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+input:valid {
+  border-color: green;
+}
+
+.bottom{
+    padding:30px 50px;
+    height: 35vh;
+    background-color: rgb(243, 242, 241);
+}
+
+.crt-acc{
+    color:white;
+    background-color:#596d48;
+    padding:10px 40px;
+    font-size:1rem;
+    border-radius: 10px;
+    border: 1px solid #596d48;
+}
+
+.log-in{
+    margin-top: 40px;
+}
+
+span{
+    color: #596d48;
+}
+
